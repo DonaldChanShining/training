@@ -1,11 +1,23 @@
+<<<<<<< HEAD
 ### SBT template
 # Simple Build Tool
 # http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
 
+=======
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+>>>>>>> 20d818883d3de6ec4799d05ea49ecf47a66ad67a
 target/
 lib_managed/
 src_managed/
 project/boot/
+<<<<<<< HEAD
 .history
 .cache
 ### JetBrains template
@@ -57,3 +69,10 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Created by .ignore support plugin (hsz.mobi)
+=======
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+>>>>>>> 20d818883d3de6ec4799d05ea49ecf47a66ad67a
